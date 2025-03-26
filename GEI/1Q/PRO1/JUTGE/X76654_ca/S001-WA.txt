@@ -1,0 +1,11 @@
+---
+problem_id: X76654_ca
+submission_id: S001
+compiler_id: P1++
+annotation: ~
+veredict: WA
+veredict_info: ~
+time_in: "2024-10-08 16:27:30+02"
+time_out: "2024-10-08 16:27:41+02"
+title: Almenys 5 Nombres ABCA
+...
