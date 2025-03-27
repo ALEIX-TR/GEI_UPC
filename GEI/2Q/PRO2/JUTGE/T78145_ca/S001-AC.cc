@@ -18,4 +18,4 @@ BinTree<int> reverse_tree(BinTree<int> t) {
     auto FE = reverse_tree(t.left());
     auto FD = reverse_tree(t.right());
     return BinTree<int>(t.value(), FD, FE);
-}
+} 
