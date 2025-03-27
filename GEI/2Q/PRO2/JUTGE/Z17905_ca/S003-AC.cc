@@ -18,4 +18,4 @@ BinTree<int> tree_of_sizes(BinTree<int> t) {
     auto FE = tree_of_sizes(t.left());
     auto FD = tree_of_sizes(t.right());
     return BinTree<int>((FE.empty()? 0:FE.value()) + (FD.empty()? 0:FD.value()) + 1, FE, FD);
-}
+} 
